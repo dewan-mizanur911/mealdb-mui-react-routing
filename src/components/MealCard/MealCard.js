@@ -35,7 +35,6 @@ export default function MealCard(props) {
     setExpanded(!expanded);
   };
 
-
   return (
     <Grid item md={4} sx={{mb: '2rem'}}>
       <Card sx={{ maxWidth: 340, border: 1 }}>
